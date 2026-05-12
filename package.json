@@ -1,6 +1,6 @@
 {
   "name": "com.zhoushilei.bestsmoothnormal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Best Smooth Normal Tool",
   "description": "A very useful tool for smoothing normal .This tool can save the smoothed normals into vertex colors, tangents, and UVs.Also,it provides some limited optional algorithms to modify the results of this process.",
   "keywords": [

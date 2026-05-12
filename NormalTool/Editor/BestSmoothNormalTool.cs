@@ -275,7 +275,7 @@ public class BestSmoothNormalTool : EditorWindow
         }
         else
         {
-            dirPath = "ACGCharacter/Mesh";
+            dirPath = "Assets/ACGCharacter/Mesh";
         }
     }
 
@@ -350,7 +350,8 @@ public class BestSmoothNormalTool : EditorWindow
         Debug.Log($"dirPath ：{dirPath}");
         string typeName = Enum.GetName(typeof(WriteTargetType), this.inner_writeTarget);
         // 注意：SaveFilePanel 需要绝对路径，所以用 Path.GetFullPath 转换一下
-        string absoluteDirPath = Path.GetFullPath(Path.Combine(Application.dataPath, dirPath));
+        string absoluteDirPath = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(Application.dataPath), dirPath));
+        Debug.Log($"absoluteDirPath ：{absoluteDirPath}");
         if (!Directory.Exists(absoluteDirPath))
         {
             Directory.CreateDirectory(absoluteDirPath);

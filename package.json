@@ -1,6 +1,6 @@
 {
   "name": "com.zhoushilei.bestsmoothnormal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Best Smooth Normal Tool",
   "description": "A very useful tool for smoothing normal .This tool can save the smoothed normals into vertex colors, tangents, and UVs.Also,it provides some limited optional algorithms to modify the results of this process.",
   "keywords": [
@@ -13,9 +13,9 @@
     "url": "https://github.com/zhoushilei0918/Best-Smooth-Normal-Tool"
   },
   "unity": "2021.2",
-  "changelogUrl": "",
-  "documentationUrl": "",
-  "licensesUrl": "",
+  "changelogUrl": "https://github.com/0xFF-LS/Smooth-Normal-Tool/",
+  "documentationUrl": "https://github.com/0xFF-LS/Smooth-Normal-Tool/",
+  "licensesUrl": "https://github.com/0xFF-LS/Smooth-Normal-Tool/blob/master/LICENSE.md",
   "dependencies": {
     "com.unity.mathematics": "1.2.6"
   }

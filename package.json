@@ -18,5 +18,12 @@
   "licensesUrl": "https://github.com/0xFF-LS/Smooth-Normal-Tool/blob/master/LICENSE.md",
   "dependencies": {
     "com.unity.mathematics": "1.2.6"
-  }
+  },
+    "samples": [
+    {
+      "displayName": "DemoScene Sample",
+      "description": "This example shows how to set up a recording session via script.",
+      "path": "Samples~/DemoScene"
+    }
+  ]
 }
